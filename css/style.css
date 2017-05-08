@@ -1,0 +1,65 @@
+/*custom ui*/
+.btn-mint{
+    background: #1ABC9C;
+    color:#fff;
+}
+.btn-mint:hover{
+    background: #1a9e80;
+    color: #e8e8e8;
+    cursor: pointer;
+}
+.btn-mint-dark{
+    background: #1a9e80;
+    color: #e8e8e8;
+}
+.btn-mint-dark:hover{
+    background: #1ABC9C;
+    color:#fff;
+    cursor: pointer;
+}
+.page-container{
+    margin-top: 120px;
+    min-height: 70vh;
+    padding-top: 60px;
+}
+/*modify bootstrap*/
+nav{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+nav .container{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+nav li:hover{
+    background: #1ABC9C;
+    transition: all 0.2s ease;
+}
+.navbar-inverse .navbar-brand::first-letter{
+    color: #1ABC9C;
+}
+.nav-item{
+    min-width: 80px;
+    text-align: center;
+    color: #eee;
+}
+.navbar-inverse .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8);
+}
+/*end of nav bar*/
+.carousel-item{
+    font-size: 1.3em;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+}
+/*end of carousel*/
+form{
+    margin-top: 2em;
+}
