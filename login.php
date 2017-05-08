@@ -1,4 +1,4 @@
-<?php require("header.html"); ?>
+<?php require("header.php"); ?>
 <!-- Page Content -->
 <div class="container page-container">
     <div class="panel">
@@ -67,4 +67,4 @@
 
 </div>
 <!-- /.container -->
-<?php require("footer.html")?>
+<?php require("footer.php")?>

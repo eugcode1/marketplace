@@ -20,9 +20,19 @@
 .page-container{
     margin-top: 120px;
     min-height: 70vh;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 /*modify bootstrap*/
+a{
+    color: #1abc9c;
+}
+a:focus, a:hover {
+    color: #19a88a;
+}
+.list-group-item.active {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
 nav{
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -30,7 +40,7 @@ nav{
     font-size: 13px;
     box-sizing: border-box;
 }
-nav .container{
+#main-nav{
     padding-top: 30px;
     padding-bottom: 10px;
 }

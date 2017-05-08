@@ -1,4 +1,4 @@
-<?php require("header.html"); ?>
+<?php require("header.php"); ?>
 <style>
     /* Temporary fix for img-fluid sizing within the carousel */
     .carousel-item.active,
@@ -197,5 +197,6 @@
     </div>
 
 </div>
+
 <!-- /.container -->
-<?php require("footer.html")?>
+<?php require("footer.php")?>
